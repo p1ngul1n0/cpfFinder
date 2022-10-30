@@ -1,0 +1,227 @@
+{
+  "sites": [
+    {
+      "app": "U2VyYXNh",
+      "error": "response.status == 400",
+      "id": 0,
+      "json": "eyJjcGYiOiAie2NwZn0ifQ==",
+      "method": "POST",
+      "silent": true,
+      "url": "aHR0cHM6Ly9hcGktYXV0aC5zZXJhc2EuY29tLmJyL3YxL3VzZXIvY3Bm",
+      "valid": "response.status == 200"
+    },
+    {
+      "app": "QmFuY28gVG95b3Rh",
+      "error": "response.status == 400",
+      "form": "Y3BmPXtjcGZ9JnBlcmZpbD0x",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 1,
+      "method": "POST",
+      "silent": true,
+      "url": "aHR0cHM6Ly9pbnN0aXR1Y2lvbmFsLmJhbmNvdG95b3RhLmNvbS5ici9hcGkvc3NvL2F1dGVudGljYWNhby9zZW5oYS9idXNjYXJQZXJndW50YXMuanNvbg==",
+      "valid": "jsonData['result'] == 'SUCCESS'"
+    },
+    {
+      "app": "RkdWIENvbmhlY2ltZW50bw==",
+      "error": "response.status == 400",
+      "form": "Y3BmPXtjcGZ9",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PVVURi04J30=",
+      "id": 2,
+      "method": "POST",
+      "silent": true,
+      "url": "aHR0cHM6Ly9pbnNjcmljYW8uY29uaGVjaW1lbnRvLmZndi5ici9SZWN1cGVyYXJTZW5oYS9Tb2xpY2l0YXJFbWFpbA==",
+      "valid": "'CPF n&#xE3;o encontrado.' not in responseContent and 'Insira um n&#xFA;mero de CPF v&#xE1;lido.' not in responseContent"
+    },
+    {
+      "app": "U0VCUkFF",
+      "error": "response.status == 400",
+      "id": 3,
+      "method": "GET",
+      "silent": true,
+      "url": "aHR0cHM6Ly9nZXN0YW8tYW1laS1iYWNrZW5kLnNlYnJhZS5jb20uYnIvZ2VzdGFvLWFtZWkvcHVibGljL3YxL3VzZXJzL3JlZ2lzdGVyZWQve2NwZn0=",
+      "valid": "jsonData['isExiste'] == True"
+    },
+    {
+      "app": "SW5mb0pvYnM=",
+      "error": "response.status == 400",
+      "form": "X19WSUVXU1RBVEU9ampPNFVHJTJGUTlUOFZvVzN3dVJLYlcxc29mak5sS0IlMkZJQ2I1cXdCZWJGQiUyQjlSQlhmaUU5OFRhd3FBUnpRUWZXN3lyJTJGbE9YYmpVU0JpdEcyb0oxbjQ2QXFERERQTEZPbDd4azkxVkhsM1piT1hHVVk2NmVPaW55YVB4WUpYU2JTbDRuSXVQR1BnVmVnSXVLeHhNS0ZEb3IwZTFZa25SN2dZR1VaZDNBZmJVM01kJTJGNlklMkJjeG4xR3lqTCUyQkIlMkJtTkVRWlluZTdWMVB6ZzZySXROZzZLZmVkanVvYm5NeU8yYkw3dDE0RzdmODNvN3pHNWZteWViWDBETko5dVo1MGJLSE1FQ2VHMjVMbCUyQjE5cktpQjVONW16bVNCSzRzWlpWWnVqQU44MjVkdnNlJTJGOTdWTGtkYWYwdnp3aWwyaUdaV0hUT28yR2NzczJkY29hdFdmJTJGRkljUUpSZGFydjdhZUVQZUQ2bTBuM3dHc1N0NURJeHJQdnFkeGVPUHFhdnVBQiUyRkFucTRzckJQQm1aWFBVR1Vpb0k2dmhhRTdJU29mOUFjb1FXVlpzTm44VSUyQnI1VENrYVVHNHZadTZJODZIVVdQSVElMkIxRSUyRlJ2N0pCN0xEaEV6SGRVN2F0VmppRDgza0dmWHFiZSUyQmsxdjVqQmxwUnlZOTVyUDJKM0JSaVpaVllmJTJCMXBtU1djTUxXRlZOJTJGb0N0SlRMSmRPNSUyQmxLb0RpRTVRaXRHS2p4UzZja0tobU9MdzdCOHJaVjExQ2Z1RE9scklqa0hmMkdON1loY0g5WFZuclRPSzZHak9QS0NiYkhsbll5OUh5OHB2bThUJTJCd1c2NGd3V2kya1hvanRMSU1xMkhLSkdpMXdFODFIdGNLckFKd3VxYm41V2ZhT0MzQmRJZURZJTJCJTJCUmtDZ3BLeFNmRFhCdk93RElBNUZVcDNEU3hMVmJQdmZFSE9JRU1QOEh4eFQ4MHFxMWllTXU5NmNlOFVpeEVWVjdTbHRKc0ZzM3pnRXBxVTQ1OGxiS21ZaW1pb0EzYTlORHZuWCUyRlZCMTdCVWJNU2NuWURDME0lMkY3ZUFIRHp6dXdhb0g0OEliV1ZhdmwlMkZaVlgxTmxqSFZ2b2YlMkIxNXBXZ3FPMEd0Qjgxekh4NUtDcWV3czRaMHBxWU1pRVYwOExzVVViWmlPVjl0anRDRU9hZWRLWWNTUHZqOVk1a1R1V3BodUF3MUM5SlZwQVFDT3RUQ2NEYnZJakRrb0klMkJxOWJUNExtcmM2dnFwWG1LJTJCSURxTUhRVjYyRkN5RmRaNnFGWVBpRTAyUGNRTzVQSDYlMkZ2ajNWMXMwMCUyQmEwZ3BJWGw4d1glMkJMbnVGS0hpMHhMVWN4S3JCa3BTMFphWU1sSDhnZU1ZM0FqYmNtOFV0Q3ZmQnlJQ2pBUkR6TXdidDZFbnFzVzltMW9LU1NYOFVGaXZPNW1aJTJCYzUwa0JMYUIlMkZzRSUyRjclMkZqdUpqVjhzWkJaJTJCNEo2OEFXaGQ1MzRjVzhienF5MDZoYjlSWlRiQWNMZzNlUnM0SHdKT0Y2TUY2WFN4RGdzRDFlUkRURTlOekYlMkYwNDJVVDNXYVRVemJCNzlra1BYSHlHOHloZE1OVm8lMkI1c2ZwZXhtM2l2cnFaMXJibTdZN1Z0V2NUMEhBS0V5SVdHWjZmN2xFdkdoZXd1eEZhdm1QVWJtemdTc2RvcVU3UTlKUWhHbG9PUDRmTlpuOG1zYzNwQVh5M3UwMkNLQ1pUaCUyRjVyNGtWZnF4MU81dWp4NGhUbHh4RSUyQkhSM2g1bWswMDZiYnNsUmduY1c5R3RuTiUyRnFVajVEaSUyRjQ1OGs2MURNNk1HMEt5eDdmWE5xb1dBYTRmSEZxQ0hBckRvMUozVjF0SkdSTUgyRDA1NW5iVVg3SllmempXTHhycmZmR2F5Z3ZTU0hrTmpyRUNMSmZ1ZVpvSkpKVmMxd1IwOU9zdU5BZkU0Mk9DWHNSZkxEQjMwNXBXb09tVVVFVnhaWlNWSlJiNHV6YkpCM2Fjb0RyOFFWRjduQlBoUFdUZFVGU0p2bnV6UzJsMmppTWpVJTJGWWxtRVlwTG1uSVdzMjY4R28lMkZHS2xrViUyRkZ3dTJVTkh1QkdZN2ZNdWRod3hMbk1YcUZYWjhWYlpzWWJEJTJCQXNNMDNBdExyYmt3a2dpYmtoRnN6VFhHck96eCUyQlRGOUVvV2J2Ulk4b0k4T3pscEFub1hMQXV5NzE2VyUyRm9ETHpEMWNUNlFFd01XZmVJTXNLb2ZZMEElM0QlM0QmX19WSUVXU1RBVEVHRU5FUkFUT1I9RDRDMzVFQ0EmY1JlbVBhc3NFbWFpbENvbXBhbnklMjR0eHRFbWFpbD0mY1JlbVBhc3NFbWFpbENvbXBhbnklMjR0eHRDUE5KPSZjUmVtUGFzc0NhbmRpZGF0ZSUyNHR4dEVtYWlsPSZjUmVtUGFzc0NhbmRpZGF0ZSUyNHR4dENQRj17Y3BmfSZjUmVtUGFzc0NhbmRpZGF0ZSUyNHJidGxzdFNlbmQ9MSZjUmVtUGFzc0NhbmRpZGF0ZSUyNGJ0blN0ZXAyPUVudmlhcg==",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 4,
+      "method": "POST",
+      "returnData": "soup.find('span', {'id': 'cRemPassCandidate_lblResult2'}).getText()",
+      "silent": false,
+      "url": "aHR0cHM6Ly93d3cuaW5mb2pvYnMuY29tLmJyL1JlbWVtYmVyUGFzcy5hc3B4",
+      "valid": "'Enviamos um e-mail para' in soup.find('span', {'id': 'cRemPassCandidate_lblResult2'}).getText()"
+    },
+    {
+      "app": "SG9zcGl0YWwgZGFzIENsw4PCrW5pY2FzIFVTUA==",
+      "error": "response.status == 400",
+      "form": "X19FVkVOVFRBUkdFVD0mX19FVkVOVEFSR1VNRU5UPSZfX1ZJRVdTVEFURT0lMkZ3RVBEd1VLTVRjNU1qQTROamszTUE5a0ZnUUNBdzlrRmdJQ0N3OFBGZ0llQkZSbGVIUmxaR1FDQlE4UEZnSWZBR1ZrWkdTckFWeEptOVluSUNFQldXT2NJZUplN3NpM2p2RkpxN2ZyWGNpUXlnRGVlUSUzRCUzRCZfX1ZJRVdTVEFURUdFTkVSQVRPUj1FNkEzNTQyRSZfX0VWRU5UVkFMSURBVElPTj0lMkZ3RWRBQWJHQ3BIcFAlMkJVb2tRRkclMkZuckZmUTZTM1hOb1hBYVh2aUp0SUVvN0JEJTJGcXpqR1hFeUR3SVNvWDdhdDEzSmRFRXJBNEJFQ3hSV1lCZFhlQnhPSThsaFltRkNEM3h0UFFYUXFaWnJ2R0g3bEdtUXRocHk2bU5QdkVBbG84RVI3NmQ2dVJUWUFKNGNWU1g0JTJGMFBDRWZRUkNLcld5NUJmQ1BpbXhjV1hRUFZSJTJCdVlnJTNEJTNEJnR4dF9sb2dpbj17Y3BmfSZ0eHRfc2VuaGE9JmJ0X0VzcXVlY2lTZW5oYT1Fc3F1ZWNpK2Erc2VuaGE=",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 5,
+      "method": "POST",
+      "silent": true,
+      "url": "aHR0cHM6Ly93d3cuaGNycC51c3AuYnIvQ29uc3VsdGFGaW5hbkZvcm5lY2Vkb3JGQUVQQS9sb2dpbi5hc3B4",
+      "valid": "'verifique se esteja informando corretamente' not in soup.find('span', {'id': 'lbErro'}).getText()"
+    },
+    {
+      "app": "VW5pdmVyc2lkYWRlIEFuaGVtYmkgTW9ydW1iaQ==",
+      "error": "response.status == 400",
+      "form": "Y3BmPXtjcGZ9",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 6,
+      "method": "POST",
+      "silent": false,
+      "url": "aHR0cHM6Ly9hcGl1YW0uZWFkLmJyL3YxL2F1dGgvcmVjb3Zlcg==",
+      "valid": "jsonData['status'] == 'success'"
+    },
+    {
+      "app": "VW5pdmVyc2lkYWRlIFPDg8KjbyBKdWRhcw==",
+      "error": "response.status == 400",
+      "form": "Y3BmPXtjcGZ9",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 7,
+      "method": "POST",
+      "silent": false,
+      "url": "aHR0cHM6Ly9hcGlzanQuZWFkLmJyL3YxL2F1dGgvcmVjb3Zlcg==",
+      "valid": "jsonData['status'] == 'success'"
+    },
+    {
+      "app": "VW5pdmVyc2lkYWRlIFVGQUJD",
+      "error": "response.status == 400",
+      "form": "Q2FkYXN0cm9JbmRleEZvcm0lNUJ0aXBvX2RvYyU1RD1jcGYmQ2FkYXN0cm9JbmRleEZvcm0lNUJudW1fZG9jJTVEPXtjcGZ9Jnl0MD1Db250aW51YXI=",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 8,
+      "method": "POST",
+      "silent": true,
+      "url": "aHR0cHM6Ly9hY2Vzc28udWZhYmMuZWR1LmJyL2NhZGFzdHJvL2luZGV4",
+      "valid": "'favor entrar em contato com o setor' not in responseContent and response.status == 200"
+    },
+    {
+      "app": "Q2xhcmV0aWFubyAtIENlbnRybyBVbml2ZXJzaXTDg8Khcmlv",
+      "error": "response.status == 400",
+      "form": "Y3BmPXtjcGZ9JmNvbW1pdD1SZWN1cGVyYXI=",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
+      "id": 9,
+      "method": "POST",
+      "silent": true,
+      "url": "aHR0cHM6Ly9wb3J0YWwucmVkZWNsYXJldGlhbm8uZWR1LmJyL2JyL3JlbWVtYmVyL2xvZ2lu",
+      "valid": "'nenhuma' not in responseContent"
+    },
+    {
+      "app": "VU5JUA==",
+      "error": "response.status == 400",
+      "id": 10,
+      "method": "GET",
+      "returnData": "repr(jsonData)",
+      "silent": true,
+      "url": "aHR0cHM6Ly9hcGkudW5pcC5ici9zaXN0ZW1hcy9pbnNjcmljb2VzL3YxL2luc2NyaWNvZXMve2NwZn0=",
+      "valid": "response.status == 200 and len(jsonData) > 0 "
+    },
+    {
+      "app": "UXVhbGlDb3Jw",
+      "error": "response.status == 400",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbjtjaGFyc2V0PVVURi04J30=",
+      "id": 12,
+      "method": "POST",
+      "silent": true,
+      "string": "{}",
+      "url": "aHR0cHM6Ly9zZXJ2aWNvc3BvcnRhbC5xdWFsaWNvcnAubmV0L2FyZWEtbG9nYWRhLWNpYW0vdXNlci9jaGVjay97Y3BmfT9hcGkta2V5PTkxY2U1YmIyLWQxNzctNDk2Yi1hMTA3LWIwY2RiNmMxNGY1Mw==",
+      "valid": "'User does not exist.' not in responseContent"
+    },
+    {
+      "app": "TmF0dXJh",
+      "error": "response.status == 400",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsJ0NsaWVudF9pZCc6ICc4MjQyYjM5Ni1hNzg2LTMzNWUtOGVjYi01Mjc5ZDNiODA1NGEnfQ==",
+      "id": 13,
+      "json": "eyJjcGYiOiAie2NwZn0ifQ==",
+      "method": "POST",
+      "returnData": "repr(jsonData)",
+      "silent": false,
+      "url": "aHR0cHM6Ly9hcGlndy5uYXR1cmEuY29tLmJyL3YxL2xlZ2FjeXdlYi9lY29tbWVyY2UvcmVzdC9tb2RlbC9hdGcvdXNlcnByb2ZpbGluZy9Qcm9maWxlQWN0b3IvcmVzZXRQYXNzd29yZA==",
+      "valid": "'clientEmail' in jsonData"
+    },
+    {
+      "app": "Q29ycmVpb3M=",
+      "error": "response.status == 400",
+      "id": 14,
+      "method": "GET",
+      "returnData": "repr(jsonData)",
+      "silent": false,
+      "url": "aHR0cHM6Ly9tZXVjb3JyZWlvcy5jb3JyZWlvcy5jb20uYnIvYXBwL2NhZGFzdHJvL2VzcXVlY2kvY2hlY2EtaWRlbnRpZmljYWNhby5waHA/cGVzc29hPXBmJmlkZW50aWZpY2FjYW89e2NwZn0=",
+      "valid": "'email' in jsonData"
+    },
+    {
+      "app": "RXZlbnRpbQ==",
+      "error": "response.status == 400",
+      "id": 15,
+      "method": "GET",
+      "silent": true,
+      "url": "aHR0cHM6Ly93d3cuZXZlbnRpbS5jb20uYnIvYXBpL2NwZi92YWxpZGF0ZT9jcGZOdW1iZXI9e2NwZn0mYWZmaWxpYXRlPUJSMQ==",
+      "valid": "response.status == 406"
+    },
+    {
+      "app": "VGlja2V0MzYw",
+      "error": "response.status == 400",
+      "form": "ZG9jdW1lbnQ9e2NwZn0=",
+      "formatted": true,
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PVVURi04J30=",
+      "id": 16,
+      "method": "POST",
+      "returnData": "repr(jsonData)",
+      "silent": true,
+      "url": "aHR0cHM6Ly93d3cudGlja2V0MzYwLmNvbS5ici91c3VhcmlvX2VzcXVlY2ktc2VuaGEvc2VhcmNo",
+      "valid": "response.status == 200"
+    },
+    {
+      "app": "SW5ncmVzc29zIENvcmludGhpYW5z",
+      "error": "response.status == 400",
+      "form": "Y3BmPXtjcGZ9",
+      "formatted": true,
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PVVURi04J30=",
+      "id": 17,
+      "method": "POST",
+      "returnData": "soup.find('span', {'id': 'msg'}).getText()",
+      "silent": true,
+      "url": "aHR0cHM6Ly93d3cuaW5ncmVzc29zY29yaW50aGlhbnMuY29tLmJyL3NjcmlwdHMvZXNxdWVjaS1taW5oYS1zZW5oYS5hc3A=",
+      "valid": "'Sucesso' in responseContent"
+    },
+    {
+      "app": "VW5pbWVkIFNlZ3VyYWRvcmE=",
+      "error": "response.status == 400",
+      "formatted": false,
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsJ1gtSWJtLUNsaWVudC1JZCc6ICc5NWNjODA0MS1kYmM2LTQwOTItOGUwZS0yYWRkMGRlNTZkNzknfQ==",
+      "id": 18,
+      "json": "eyJhcGxpY2FjYW9PcmlnZW0iOiAiUE9SVEFMX1BGIiwidXN1YXJpbyI6ICJ7Y3BmfSJ9",
+      "method": "POST",
+      "returnData": "repr(jsonData)",
+      "silent": true,
+      "url": "aHR0cHM6Ly9jb25uZWN0aW9uYnVzLnNlZ3Vyb3N1bmltZWQuY29tLmJyL3NlZ3Vyb3MtdW5pbWVkL3ByZC92MS91c3VhcmlvL2VzcXVlY2ktc2VuaGE=",
+      "valid": "jsonData['codigo'] == '0'"
+    },
+    {
+      "app": "TW92aWRh",
+      "error": "response.status == 400",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbid9",
+      "id": 19,
+      "json": "eyJjcGYiOiAie2NwZn0iLCJ0aXBvIjogImVtYWlsIn0=",
+      "method": "POST",
+      "returnData": "repr(jsonData)",
+      "silent": false,
+      "url": "aHR0cHM6Ly9iZmYtYjJjLm1vdmlkYWNsb3VkLmNvbS5ici9hcGkvdjEvdXN1YXJpby9yZWN1cGVyYXItc2VuaGE=",
+      "valid": "jsonData['success'] == True"
+    },
+    {
+      "app": "UGV0eg==",
+      "error": "response.status == 400",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsJ0FjY2VwdCc6J2FwcGxpY2F0aW9uL2pzb24sIHRleHQvcGxhaW4sICovKid9",
+      "id": 20,
+      "json": "eyJjcGYiOiAie2NwZn0ifQ==",
+      "method": "POST",
+      "returnData": "repr(jsonData)",
+      "silent": true,
+      "url": "aHR0cHM6Ly93d3cucGV0ei5jb20uYnIvYXBpL3YzL3B1YmxpYy9jbGllbnQvYWNjZXNz",
+      "valid": "'error' not in responseContent"
+    }
+  ]
+}
