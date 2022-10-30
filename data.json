@@ -127,7 +127,7 @@
       "silent": true,
       "string": "{}",
       "url": "aHR0cHM6Ly9zZXJ2aWNvc3BvcnRhbC5xdWFsaWNvcnAubmV0L2FyZWEtbG9nYWRhLWNpYW0vdXNlci9jaGVjay97Y3BmfT9hcGkta2V5PTkxY2U1YmIyLWQxNzctNDk2Yi1hMTA3LWIwY2RiNmMxNGY1Mw==",
-      "valid": "'User does not exist.' not in responseContent"
+      "valid": "'User does not exist.' not in responseContent and response.status == 200"
     },
     {
       "app": "TmF0dXJh",
