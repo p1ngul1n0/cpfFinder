@@ -2,7 +2,6 @@
   "sites": [
     {
       "app": "U2VyYXNh",
-      "error": "response.status == 400",
       "id": 0,
       "json": "eyJjcGYiOiAie2NwZn0ifQ==",
       "method": "POST",
@@ -12,7 +11,6 @@
     },
     {
       "app": "QmFuY28gVG95b3Rh",
-      "error": "response.status == 400",
       "form": "Y3BmPXtjcGZ9JnBlcmZpbD0x",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 1,
@@ -23,7 +21,6 @@
     },
     {
       "app": "RkdWIENvbmhlY2ltZW50bw==",
-      "error": "response.status == 400",
       "form": "Y3BmPXtjcGZ9",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PVVURi04J30=",
       "id": 2,
@@ -34,7 +31,6 @@
     },
     {
       "app": "U0VCUkFF",
-      "error": "response.status == 400",
       "id": 3,
       "method": "GET",
       "silent": true,
@@ -43,7 +39,6 @@
     },
     {
       "app": "SW5mb0pvYnM=",
-      "error": "response.status == 400",
       "form": "X19WSUVXU1RBVEU9ampPNFVHJTJGUTlUOFZvVzN3dVJLYlcxc29mak5sS0IlMkZJQ2I1cXdCZWJGQiUyQjlSQlhmaUU5OFRhd3FBUnpRUWZXN3lyJTJGbE9YYmpVU0JpdEcyb0oxbjQ2QXFERERQTEZPbDd4azkxVkhsM1piT1hHVVk2NmVPaW55YVB4WUpYU2JTbDRuSXVQR1BnVmVnSXVLeHhNS0ZEb3IwZTFZa25SN2dZR1VaZDNBZmJVM01kJTJGNlklMkJjeG4xR3lqTCUyQkIlMkJtTkVRWlluZTdWMVB6ZzZySXROZzZLZmVkanVvYm5NeU8yYkw3dDE0RzdmODNvN3pHNWZteWViWDBETko5dVo1MGJLSE1FQ2VHMjVMbCUyQjE5cktpQjVONW16bVNCSzRzWlpWWnVqQU44MjVkdnNlJTJGOTdWTGtkYWYwdnp3aWwyaUdaV0hUT28yR2NzczJkY29hdFdmJTJGRkljUUpSZGFydjdhZUVQZUQ2bTBuM3dHc1N0NURJeHJQdnFkeGVPUHFhdnVBQiUyRkFucTRzckJQQm1aWFBVR1Vpb0k2dmhhRTdJU29mOUFjb1FXVlpzTm44VSUyQnI1VENrYVVHNHZadTZJODZIVVdQSVElMkIxRSUyRlJ2N0pCN0xEaEV6SGRVN2F0VmppRDgza0dmWHFiZSUyQmsxdjVqQmxwUnlZOTVyUDJKM0JSaVpaVllmJTJCMXBtU1djTUxXRlZOJTJGb0N0SlRMSmRPNSUyQmxLb0RpRTVRaXRHS2p4UzZja0tobU9MdzdCOHJaVjExQ2Z1RE9scklqa0hmMkdON1loY0g5WFZuclRPSzZHak9QS0NiYkhsbll5OUh5OHB2bThUJTJCd1c2NGd3V2kya1hvanRMSU1xMkhLSkdpMXdFODFIdGNLckFKd3VxYm41V2ZhT0MzQmRJZURZJTJCJTJCUmtDZ3BLeFNmRFhCdk93RElBNUZVcDNEU3hMVmJQdmZFSE9JRU1QOEh4eFQ4MHFxMWllTXU5NmNlOFVpeEVWVjdTbHRKc0ZzM3pnRXBxVTQ1OGxiS21ZaW1pb0EzYTlORHZuWCUyRlZCMTdCVWJNU2NuWURDME0lMkY3ZUFIRHp6dXdhb0g0OEliV1ZhdmwlMkZaVlgxTmxqSFZ2b2YlMkIxNXBXZ3FPMEd0Qjgxekh4NUtDcWV3czRaMHBxWU1pRVYwOExzVVViWmlPVjl0anRDRU9hZWRLWWNTUHZqOVk1a1R1V3BodUF3MUM5SlZwQVFDT3RUQ2NEYnZJakRrb0klMkJxOWJUNExtcmM2dnFwWG1LJTJCSURxTUhRVjYyRkN5RmRaNnFGWVBpRTAyUGNRTzVQSDYlMkZ2ajNWMXMwMCUyQmEwZ3BJWGw4d1glMkJMbnVGS0hpMHhMVWN4S3JCa3BTMFphWU1sSDhnZU1ZM0FqYmNtOFV0Q3ZmQnlJQ2pBUkR6TXdidDZFbnFzVzltMW9LU1NYOFVGaXZPNW1aJTJCYzUwa0JMYUIlMkZzRSUyRjclMkZqdUpqVjhzWkJaJTJCNEo2OEFXaGQ1MzRjVzhienF5MDZoYjlSWlRiQWNMZzNlUnM0SHdKT0Y2TUY2WFN4RGdzRDFlUkRURTlOekYlMkYwNDJVVDNXYVRVemJCNzlra1BYSHlHOHloZE1OVm8lMkI1c2ZwZXhtM2l2cnFaMXJibTdZN1Z0V2NUMEhBS0V5SVdHWjZmN2xFdkdoZXd1eEZhdm1QVWJtemdTc2RvcVU3UTlKUWhHbG9PUDRmTlpuOG1zYzNwQVh5M3UwMkNLQ1pUaCUyRjVyNGtWZnF4MU81dWp4NGhUbHh4RSUyQkhSM2g1bWswMDZiYnNsUmduY1c5R3RuTiUyRnFVajVEaSUyRjQ1OGs2MURNNk1HMEt5eDdmWE5xb1dBYTRmSEZxQ0hBckRvMUozVjF0SkdSTUgyRDA1NW5iVVg3SllmempXTHhycmZmR2F5Z3ZTU0hrTmpyRUNMSmZ1ZVpvSkpKVmMxd1IwOU9zdU5BZkU0Mk9DWHNSZkxEQjMwNXBXb09tVVVFVnhaWlNWSlJiNHV6YkpCM2Fjb0RyOFFWRjduQlBoUFdUZFVGU0p2bnV6UzJsMmppTWpVJTJGWWxtRVlwTG1uSVdzMjY4R28lMkZHS2xrViUyRkZ3dTJVTkh1QkdZN2ZNdWRod3hMbk1YcUZYWjhWYlpzWWJEJTJCQXNNMDNBdExyYmt3a2dpYmtoRnN6VFhHck96eCUyQlRGOUVvV2J2Ulk4b0k4T3pscEFub1hMQXV5NzE2VyUyRm9ETHpEMWNUNlFFd01XZmVJTXNLb2ZZMEElM0QlM0QmX19WSUVXU1RBVEVHRU5FUkFUT1I9RDRDMzVFQ0EmY1JlbVBhc3NFbWFpbENvbXBhbnklMjR0eHRFbWFpbD0mY1JlbVBhc3NFbWFpbENvbXBhbnklMjR0eHRDUE5KPSZjUmVtUGFzc0NhbmRpZGF0ZSUyNHR4dEVtYWlsPSZjUmVtUGFzc0NhbmRpZGF0ZSUyNHR4dENQRj17Y3BmfSZjUmVtUGFzc0NhbmRpZGF0ZSUyNHJidGxzdFNlbmQ9MSZjUmVtUGFzc0NhbmRpZGF0ZSUyNGJ0blN0ZXAyPUVudmlhcg==",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 4,
@@ -55,7 +50,6 @@
     },
     {
       "app": "SG9zcGl0YWwgZGFzIENsw4PCrW5pY2FzIFVTUA==",
-      "error": "response.status == 400",
       "form": "X19FVkVOVFRBUkdFVD0mX19FVkVOVEFSR1VNRU5UPSZfX1ZJRVdTVEFURT0lMkZ3RVBEd1VLTVRjNU1qQTROamszTUE5a0ZnUUNBdzlrRmdJQ0N3OFBGZ0llQkZSbGVIUmxaR1FDQlE4UEZnSWZBR1ZrWkdTckFWeEptOVluSUNFQldXT2NJZUplN3NpM2p2RkpxN2ZyWGNpUXlnRGVlUSUzRCUzRCZfX1ZJRVdTVEFURUdFTkVSQVRPUj1FNkEzNTQyRSZfX0VWRU5UVkFMSURBVElPTj0lMkZ3RWRBQWJHQ3BIcFAlMkJVb2tRRkclMkZuckZmUTZTM1hOb1hBYVh2aUp0SUVvN0JEJTJGcXpqR1hFeUR3SVNvWDdhdDEzSmRFRXJBNEJFQ3hSV1lCZFhlQnhPSThsaFltRkNEM3h0UFFYUXFaWnJ2R0g3bEdtUXRocHk2bU5QdkVBbG84RVI3NmQ2dVJUWUFKNGNWU1g0JTJGMFBDRWZRUkNLcld5NUJmQ1BpbXhjV1hRUFZSJTJCdVlnJTNEJTNEJnR4dF9sb2dpbj17Y3BmfSZ0eHRfc2VuaGE9JmJ0X0VzcXVlY2lTZW5oYT1Fc3F1ZWNpK2Erc2VuaGE=",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 5,
@@ -66,7 +60,6 @@
     },
     {
       "app": "VW5pdmVyc2lkYWRlIEFuaGVtYmkgTW9ydW1iaQ==",
-      "error": "response.status == 400",
       "form": "Y3BmPXtjcGZ9",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 6,
@@ -77,7 +70,6 @@
     },
     {
       "app": "VW5pdmVyc2lkYWRlIFPDg8KjbyBKdWRhcw==",
-      "error": "response.status == 400",
       "form": "Y3BmPXtjcGZ9",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 7,
@@ -88,7 +80,6 @@
     },
     {
       "app": "VW5pdmVyc2lkYWRlIFVGQUJD",
-      "error": "response.status == 400",
       "form": "Q2FkYXN0cm9JbmRleEZvcm0lNUJ0aXBvX2RvYyU1RD1jcGYmQ2FkYXN0cm9JbmRleEZvcm0lNUJudW1fZG9jJTVEPXtjcGZ9Jnl0MD1Db250aW51YXI=",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 8,
@@ -99,7 +90,6 @@
     },
     {
       "app": "Q2xhcmV0aWFubyAtIENlbnRybyBVbml2ZXJzaXTDg8Khcmlv",
-      "error": "response.status == 400",
       "form": "Y3BmPXtjcGZ9JmNvbW1pdD1SZWN1cGVyYXI=",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJ30=",
       "id": 9,
@@ -110,7 +100,6 @@
     },
     {
       "app": "VU5JUA==",
-      "error": "response.status == 400",
       "id": 10,
       "method": "GET",
       "returnData": "repr(jsonData)",
@@ -120,7 +109,6 @@
     },
     {
       "app": "UXVhbGlDb3Jw",
-      "error": "response.status == 400",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbjtjaGFyc2V0PVVURi04J30=",
       "id": 12,
       "method": "POST",
@@ -131,7 +119,6 @@
     },
     {
       "app": "TmF0dXJh",
-      "error": "response.status == 400",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsJ0NsaWVudF9pZCc6ICc4MjQyYjM5Ni1hNzg2LTMzNWUtOGVjYi01Mjc5ZDNiODA1NGEnfQ==",
       "id": 13,
       "json": "eyJjcGYiOiAie2NwZn0ifQ==",
@@ -143,7 +130,6 @@
     },
     {
       "app": "Q29ycmVpb3M=",
-      "error": "response.status == 400",
       "id": 14,
       "method": "GET",
       "returnData": "repr(jsonData)",
@@ -153,7 +139,6 @@
     },
     {
       "app": "RXZlbnRpbQ==",
-      "error": "response.status == 400",
       "id": 15,
       "method": "GET",
       "silent": true,
@@ -162,7 +147,6 @@
     },
     {
       "app": "VGlja2V0MzYw",
-      "error": "response.status == 400",
       "form": "ZG9jdW1lbnQ9e2NwZn0=",
       "formatted": true,
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PVVURi04J30=",
@@ -175,7 +159,6 @@
     },
     {
       "app": "SW5ncmVzc29zIENvcmludGhpYW5z",
-      "error": "response.status == 400",
       "form": "Y3BmPXtjcGZ9",
       "formatted": true,
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PVVURi04J30=",
@@ -188,7 +171,6 @@
     },
     {
       "app": "VW5pbWVkIFNlZ3VyYWRvcmE=",
-      "error": "response.status == 400",
       "formatted": false,
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsJ1gtSWJtLUNsaWVudC1JZCc6ICc5NWNjODA0MS1kYmM2LTQwOTItOGUwZS0yYWRkMGRlNTZkNzknfQ==",
       "id": 18,
@@ -201,7 +183,6 @@
     },
     {
       "app": "TW92aWRh",
-      "error": "response.status == 400",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbid9",
       "id": 19,
       "json": "eyJjcGYiOiAie2NwZn0iLCJ0aXBvIjogImVtYWlsIn0=",
@@ -213,7 +194,6 @@
     },
     {
       "app": "UGV0eg==",
-      "error": "response.status == 400",
       "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsJ0FjY2VwdCc6J2FwcGxpY2F0aW9uL2pzb24sIHRleHQvcGxhaW4sICovKid9",
       "id": 20,
       "json": "eyJjcGYiOiAie2NwZn0ifQ==",
@@ -222,6 +202,16 @@
       "silent": true,
       "url": "aHR0cHM6Ly93d3cucGV0ei5jb20uYnIvYXBpL3YzL3B1YmxpYy9jbGllbnQvYWNjZXNz",
       "valid": "'error' not in responseContent"
+    },
+    {
+      "app": "UGVybmFtYnVjYW5hcw==",
+      "id": 21,
+      "headers": "eydBdXRob3JpemF0aW9uJzogJ0JlYXJlciBZdTJvVmdxNUNCNTNHZjJjWjZRM2hKMTZNWkZNJ30=",
+      "method": "GET",
+      "returnData": "repr(jsonData)",
+      "silent": true,
+      "url": "aHR0cHM6Ly9hcGlnZWUtdmFyZWpvLXByZC5wZXJuYW1idWNhbmFzLmNvbS5ici9nZXJlbmNpYW1lbnRvX2NsaWVudGVzL2NsaWVudGVzL3tjcGZ9",
+      "valid": "response.status == 200 and 'nomeCompleto' in responseContent"
     }
   ]
 }
