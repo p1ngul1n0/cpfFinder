@@ -212,6 +212,17 @@
       "silent": true,
       "url": "aHR0cHM6Ly9hcGlnZWUtdmFyZWpvLXByZC5wZXJuYW1idWNhbmFzLmNvbS5ici9nZXJlbmNpYW1lbnRvX2NsaWVudGVzL2NsaWVudGVzL3tjcGZ9",
       "valid": "response.status == 200 and 'nomeCompleto' in responseContent"
+    },
+    {
+      "app": "TWFyaXNh",
+      "url": "aHR0cHM6Ly93d3cubWFyaXNhLmNvbS5ici9yZWdpc3Rlci9uZXdjdXN0b21lcg==",
+      "valid": "'CPF j&aacute; cadastrado' in responseContent and response.status == 200",
+      "form": "dHlwZT1DVVNUT01FUiZmaXJzdE5hbWU9Q2F0YXJpbmErQ3Jpc3RpYW5lK0FsbGFuYStTaWx2YSZiaXJ0aERhdGU9MDMlMkYwNiUyRjIwMDQmY3BmQ25waj17Y3BmfSZnZW5kZXI9RkVNQUxFJmRkZENlbGxQaG9uZU51bWJlcj0xMSZjZWxsUGhvbmVOdW1iZXI9NjU5ODgtMTczOSZkZGRQaG9uZU51bWJlcj0xMSZwaG9uZU51bWJlcj02NTM1LTM0ODMmZW1haWw9Y2F0YXJpbmFfc2lsdmElNDB6aXBtYWlsLmNvbSZwd2Q9SU11aEEzSEtQbyZjaGVja1B3ZD1JTXVoQTNIS1BvJnVzZXJEYXRhQWNjZXB0YW5jZVRlcm09dHJ1ZSZvcHRJbkVtYWlsPW9uJm9wdEluU01TPW9uJkNTUkZUb2tlbj1kMDlkY2EzYS0wOGRiLTRlMmEtYWM5Yi1kN2YxZjI2ODRjOTA=",
+      "headers": "eydDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkJywnQ29va2llJzogJ0pTRVNTSU9OSUQ9Q0EwMTM1MkY1QjhBNTk2NjMxNUU3MUMwM0MzNDc1OTcubm9kZS02Oyd9",
+      "formatted": true,
+      "id": 23,
+      "method": "POST",
+      "silent": true
     }
   ]
 }
