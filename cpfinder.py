@@ -93,6 +93,9 @@ async def flyOver(cpf, stealthMode, showAll):
     ])
 
 if arguments.cpf:
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    try:
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    except:
+        pass
     asyncio.run(flyOver(arguments.cpf, arguments.stealthMode, arguments.showAll))
 
