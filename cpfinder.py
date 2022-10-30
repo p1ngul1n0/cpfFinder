@@ -19,7 +19,7 @@ print(f'''{Fore.GREEN}
 \____/_/   /_/   /_/_/ /_/\__,_/\___/_/     
                                             
 
-''')
+\033[0m''')
                                             
 
 parser = argparse.ArgumentParser()
@@ -61,7 +61,7 @@ async def doRequest(lookup, cpf, stealthMode, showAll):
                     else:
                         soup = BeautifulSoup(responseContent, 'html.parser')
                     if eval(lookup["valid"]):
-                        print (f'{Fore.GREEN + Style.BRIGHT}[+]\033[0m {Fore.BLUE}{appName}\033[0m {Fore.BLACK + Style.BRIGHT}{url}\033[0m')
+                        print (f'{Fore.GREEN + Style.BRIGHT}[+]\033[0m {Fore.BLUE}{appName}\033[0m {Fore.BLUE + Style.BRIGHT}{url}\033[0m')
                         if 'returnData' in lookup:
                             print (f'  |-{Fore.BLACK + Back.WHITE}{eval(lookup["returnData"])}\033[0m')
                     elif showAll:
