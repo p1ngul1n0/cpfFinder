@@ -54,7 +54,7 @@ async def doRequest(lookup, cpf, stealthMode, showAll):
     else:
         try:
             async with ClientSession() as session:
-                async with session.request(method=lookup['method'], url=url, json=jsonBody, data=formData, headers=headers, ssl=False) as response:
+                async with session.request(method=lookup['method'], url=url, json=jsonBody, data=formData, headers=headers, ssl=False, timeout=10) as response:
                     responseContent = await response.text()
                     if 'content-type' in response.headers and "application/json" in response.headers["Content-Type"]:
                         jsonData = await response.json()
