@@ -1,10 +1,10 @@
-# CPFinder
+# CPF Finder
 Ferramenta de OSINT para mapear contas através de um CPF.
 
 ## Uso
 
 ```
-usage: cpfinder.py [-h] [-cpf CPF] [--noisy] [--show-all]
+usage: cpffinder.py [-h] [-cpf CPF] [--noisy] [--show-all]
 
 options:
   -h, --help  show this help message and exit
